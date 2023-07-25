@@ -7,9 +7,15 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- font awesome  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- google font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
 
 </head>
-<body>
+<body style="font-family: 'Lato','Poppins','Roboto',sans-serif;">
+
     <header class="container mx-auto mb-4 lg:h-[80vh] xl:h-[90vh] 2xl:h-[100vh]">
 
     <div class="navbar lg:my-10 my-2 flex-row-reverse bg-base-100 max-h-[120px] py-6 justify-evenly lg:bg-[#F85559] rounded-[600px] -px-4">
@@ -144,7 +150,52 @@
 </section>
     </header>
 <!-- header section complate  -->
-<section class="my-4">
+
+
+<section class="container my-8 mx-auto">
+<div class="flex justify-center flex-wrap lg:justify-between w-full items-center">
+    <div class="text-center">
+            <h3 class="lg:text-start text-neutral-900 text-5xl font-bold my-2">Deal of the day</h3>    
+            <p class="mb-4 text-neutral-900 text-opacity-60 lg:text-base text-sm font-medium leading-relaxed mt-2 max-w-[600px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>
+
+<div>
+    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:51;"></span>
+          </span>
+          sec
+        </div>
+      </div>
+</div>
+</div>
+<!-- half complate  -->
+
+
+
+
+
+
+
 
 
 
